@@ -25,12 +25,12 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "/app/",
+  "start_url": "/a/",
   "background_color": "#0D1322",
   "theme_color": "#0D1322",
   "display": "standalone",
   "share_target": {
-    "action": "/app/",
+    "action": "/a/",
     "method": "POST",
     "enctype": "multipart/form-data",
     "params": {

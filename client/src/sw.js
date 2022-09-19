@@ -53,7 +53,7 @@ registerRoute(
 );
 
 function handleShareTarget(event) {
-  event.respondWith(Response.redirect('/app/?share-target'));
+  event.respondWith(Response.redirect('/a/?share-target'));
 
   event.waitUntil(async function() {
     await nextMessage(constants.SW_SHARE_READY);
@@ -73,7 +73,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== location.origin) return;
 
   if (
-    url.pathname === '/app/' &&
+    url.pathname === '/a/' &&
     url.searchParams.has('share-target') &&
     event.request.method === 'POST'
   ) {

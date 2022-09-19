@@ -13,8 +13,8 @@ http {
             try_files $uri $uri/ /index.html;
         }
 
-        location /app {
-            try_files $uri $uri/ /app/index.html;
+        location /a {
+            try_files $uri $uri/ /a/index.html;
         }
 
         location /ws {

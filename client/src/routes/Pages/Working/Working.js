@@ -30,7 +30,7 @@ const Working = () => (
           </p>
           <p>
             All your previously joined rooms show up in
-            <a href="/app/"> Recent Rooms </a>
+            <a href="/a/"> Recent Rooms </a>
             page for quick access in the future.
             These rooms itself are not persisted on any database and are immediately destroyed once all the users of that room leave.
           </p>
@@ -99,7 +99,7 @@ const Working = () => (
 
       <section class="callout">
         <h2>Ready to share some files?</h2>
-        <a class="btn" href="/app">Start Sharing</a>
+        <a class="btn" href="/a/">Start Sharing</a>
       </section>
     </div>
   </main>

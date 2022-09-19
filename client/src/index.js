@@ -11,7 +11,7 @@ export default function Blaze() {
   function handleRouteChange() {
     if (typeof window === 'undefined') return;
     window.scrollTo(0, 0);
-    if (window.location && location.pathname == '/') location = '/app/';
+    if (window.location && location.pathname == '/') location = "/a/";
   }
 
   return (
@@ -19,7 +19,7 @@ export default function Blaze() {
       <Router onChange={handleRouteChange}>
         <Route path="/" component={App} />
         <Route path="/:*?" component={Pages} />
-        <Route path="/app/:*?" component={App} />
+        <Route path="/a/:*?" component={App} />
       </Router>
     </div>
   );

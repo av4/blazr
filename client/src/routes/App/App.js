@@ -44,7 +44,7 @@ export default function App() {
   /* Changing route when offline */
   useEffect(() => {
     if (isRegistered && !isOnline) {
-      route('/app', true);
+      route('/a/', true);
     }
   }, [isRegistered, isOnline]);
 
@@ -63,9 +63,9 @@ export default function App() {
         isLoaded ? (
           <QueuedFiles.Provider value={{ queuedFiles, setQueuedFiles }}>
             <Router>
-              <Rooms path="/app/" isOnline={isOnline} />
-              <FileTransfer path="/app/t/:room" />
-              <JoinInstantRoom path="/app/instant/join" />
+              <Rooms path="/a/" isOnline={isOnline} />
+              <FileTransfer path="/a/t/:room" />
+              <JoinInstantRoom path="/a/instant/join" />
               <RedirectToFourOFour default />
             </Router>
           </QueuedFiles.Provider>

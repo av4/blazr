@@ -320,7 +320,7 @@ class FileTransfer extends PureComponent {
       },
     });
 
-    route('/app', true);
+    route('/a/', true);
   }
 
   handleShare = () => {

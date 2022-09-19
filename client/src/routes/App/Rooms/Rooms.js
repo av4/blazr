@@ -75,7 +75,7 @@ function Rooms({ isOnline }) {
   const handleNewRoom = (room) => {
     setModal(false);
     const roomURL = room.replace(/ /g, '-').toLowerCase();
-    route(`/app/t/${roomURL}`);
+    route(`/a/t/${roomURL}`);
   };
 
   const removeRoom = (room) => {

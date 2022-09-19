@@ -13,7 +13,7 @@ const Home = () => (
         <h1 class="title">Share files the modern way</h1>
         <h2 class="subtitle">Using just a web browser to any device on the Internet!</h2>
 
-        <a href="/app" class="btn">
+        <a href="/a/" class="btn">
           Start Sharing
         </a>
         <a
@@ -99,7 +99,7 @@ const Home = () => (
         <h2 class="title">Let's get sharing!</h2>
         <h3 class="subtitle">No registrations required, completely free</h3>
 
-        <a href="/app" class="btn">
+        <a href="/a/" class="btn">
           Start sharing
         </a>
       </div>

@@ -7,7 +7,7 @@ import useInstantRoom from '../../../hooks/useInstantRoom';
 
 function JoinInstantRoom() {
   const [getInstantRoom] = useInstantRoom((room) => {
-    route(`/app/t/${room}`, true);
+    route(`/a/t/${room}`, true);
   });
 
   useEffect(getInstantRoom, []);

@@ -10,7 +10,7 @@ const FourOFour = () => (
     <img src={FourOFourVis} />
     <h1>Oops, this connection just broke into numbers!</h1>
     <p>Let's get you back to start sharing some files</p>
-    <a class="btn" href="/app/">Go back</a>
+    <a class="btn" href="/a/">Go back</a>
   </main>
 );
 
