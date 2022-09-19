@@ -464,7 +464,7 @@ class FileTransfer extends PureComponent {
         <main>
 
           <div>
-            <Canvas ref={this.canvas} style="margin-left: -0.6rem" />
+            <Canvas ref={this.canvas} style="margin-left: -0.6rem; height:100%!important" />
 
             {
               percentage !== null && (
