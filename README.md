@@ -1,7 +1,7 @@
 <div align="center">
   <p align="center">
     <a href="//master.blazr.yie.me">
-      <img src="//master.blazr.yie.me/assets/images/apple-touch-icon-152x152.png" width="80">
+      <img src="//raw.githubusercontent.com/av4/blazr/master/client/src/assets/images/apple-touch-icon-152x152.png" width="80">
     </a>
   </p>
   <p align="center">  
