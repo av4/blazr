@@ -114,14 +114,14 @@ class Visualizer {
    * @param {String} name Identifier of the node
    */
   removeNode(name) {
+    if (this.nodes.length > 1) sounder.play('removeUser');
+    
     const nodeDuplID = this.nodes.findIndex(node => node.name === name);
 
     if (nodeDuplID > -1) {
       this.nodes.splice(nodeDuplID, 1);
-      
       this.updateAllPos();
     }
-    if (this.nodes.length > 1) sounder.play('removeUser');
   }
 
 
