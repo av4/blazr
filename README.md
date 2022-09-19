@@ -1,7 +1,7 @@
 <div align="center">
   <p align="center">
     <a href="//master.blazr.yie.me">
-      <img src="https://github.com/blenderskool/blaze/blob/master/client/src/assets/images/apple-touch-icon-120x120.png" width="80">
+      <img src="https://github.com/av4/blazr/blob/master/client/src/assets/images/apple-touch-icon-120x120.png" width="80">
     </a>
   </p>
   <p align="center">  
