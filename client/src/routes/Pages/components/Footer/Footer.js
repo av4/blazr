@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import pkg from '../../../../../../package.json';
+import pkg from '../../../../../package.json';
 const appName = pkg.name[0].toUpperCase() + pkg.name.slice(1)
 
 import './Footer.scss';
