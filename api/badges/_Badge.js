@@ -2,13 +2,11 @@
 import { h } from 'preact';
 
 function Badge({ width, height, title, value, type }) {
-  const styles = `
-    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
-  
+  const styles = ` 
     .badge {
       border-radius: 4px;
       color: #fff;
-      font-family: 'Jost', Verdana, DejaVu Sans, sans-serif;
+      font-family: -apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
       font-weight: 500;
       display: flex;
       align-items: center;

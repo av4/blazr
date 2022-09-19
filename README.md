@@ -102,3 +102,5 @@ App can now be accessed at port `8080` :tada:
 
 ## License
 Blazr is [MIT Licensed](https://github.com/av4/blazr/blob/master/LICENSE)
+
+tone-2870: [Mixkit Sound Effects Free License](https://mixkit.co/license/#sfxFree)
