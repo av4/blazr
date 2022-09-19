@@ -1,6 +1,6 @@
 {
   "name": "blazr",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Quickly share files with multiple users",
   "private": true,
   "scripts": {
