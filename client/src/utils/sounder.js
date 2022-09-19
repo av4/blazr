@@ -6,11 +6,10 @@ const nameMap = {
 }
 
 const play = nam => {
-  nam = nameMap[nam]
   console.log('sounder nam:', nam)
-  if (nam) {
-    console.log('sounder nam:', nam)
-    new Howl({ src: [`/assets/audio/${nam}`], autoplay: true, volume: 0.5 })
+  if (nameMap[nam]) {
+    console.log('sounder nameMap:', nameMap[nam])
+    new Howl({ src: [`/assets/audio/${nameMap[nam]}`], autoplay: true, volume: 0.5 })
   }
 }
 const sounder = {
