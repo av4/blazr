@@ -16,8 +16,7 @@ const Footer = () => (
         </span><br />
     </div>
     <script>
-      let year = (new Date).getFullYear();
-      if (year > 2022) document.getElementById('cpyear').innerText = '2022 - ' + year;
+      if ((new Date).getFullYear() > 2022) document.getElementById('cpyear').innerText = '2022 - ' + (new Date).getFullYear();
     </script>
   </footer>
 );

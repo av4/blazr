@@ -107,7 +107,8 @@ class Visualizer {
 
     if (!pos) this.updateAllPos();
     if (this.priorNodeLen < this.nodes.length && this.nodes.length > 1) {
-      Howl({ src: ['/assets/tone-2870.wav']})
+      console.log('new user alert')
+      new Howl({ src: ['/assets/tone-2870.wav'], autoplay: true })
     }
     this.priorNodeLen = this.nodes.length;
   }
