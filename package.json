@@ -1,7 +1,7 @@
 {
-  "name": "blaze",
-  "version": "2.1.3",
-  "description": "Quickly share files with multiple users",
+  "name": "blazr",
+  "version": "1.0.1",
+  "description": "A share now adaptation of Blaze p2p file sharing",
   "private": true,
   "scripts": {
     "dev:fe": "npm run --prefix client dev",
@@ -13,7 +13,7 @@
     "start": "concurrently \"npm:start:server\" \"npm:start:fe\"",
     "postinstall": "npm install --prefix client && npm install --prefix server"
   },
-  "author": "Akash Hamirwasia",
+  "author": "av4",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^5.2.0"
