@@ -6,7 +6,7 @@
   </p>
   <p align="center">  
     <h3>A share now adaptation of Blaze - A P2P file sharing web app ⚡</h3>
-    Without the advertising & Google
+    Without advertising &amp; Google
   </p>
 </div>
 
