@@ -5,13 +5,15 @@ const nameMap = {
   removeUser: 'mixkit-arrow-whoosh-1491.wav',
 }
 
-const tone = {
-  play: nam => {
-    nam = nameMap[nam]
-    if (nam) {
-      new Howl({ src: [`/assets/audio/${nam}`], autoplay: true, volume: 0.5 })
-    }
+const play = nam => {
+  nam = nameMap[nam]
+  if (nam) {
+    new Howl({ src: [`/assets/audio/${nam}`], autoplay: true, volume: 0.5 })
   }
 }
+const sounder = {
+  play,
+  userChange: (userAdded) => { play((aduserAddedded) ? 'addUser' : 'removeUser') }
+}
 
-export default tone
+export default sounder

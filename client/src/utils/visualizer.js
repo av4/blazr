@@ -1,4 +1,4 @@
-import { play } from './sounder'
+import sounder from './sounder'
 
 class Visualizer {
 
@@ -106,7 +106,7 @@ class Visualizer {
       this.nodes.push(nodeData);
 
     if (!pos) this.updateAllPos();
-    if (this.nodes.length > 1) play((this.priorNodeLen < this.nodes.length) ? 'addUser' : 'removeUser');
+    if (this.nodes.length > 1 && this.priorNodeLen != this.nodes.length) sounder.userChange((this.priorNodeLen < this.nodes.length));
     this.priorNodeLen = this.nodes.length;
   }
 
