@@ -1,4 +1,4 @@
-import { Howl } from 'howler'
+import { play } from './sounder'
 
 class Visualizer {
 
@@ -106,10 +106,7 @@ class Visualizer {
       this.nodes.push(nodeData);
 
     if (!pos) this.updateAllPos();
-    if (this.priorNodeLen < this.nodes.length && this.nodes.length > 1) {
-      console.log('new user alert')
-      new Howl({ src: ['/assets/tone-2870.wav'], autoplay: true, volume: 0.5 })
-    }
+    if (this.priorNodeLen < this.nodes.length && this.nodes.length > 1) play('addUser');
     this.priorNodeLen = this.nodes.length;
   }
 
