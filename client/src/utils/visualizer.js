@@ -106,7 +106,7 @@ class Visualizer {
       this.nodes.push(nodeData);
 
     if (!pos) this.updateAllPos();
-    if (this.nodes.length > 1) sounder.play('addUser');
+    if (this.nodes.length > 1) sounder.addUser.play();
   }
 
   /**
@@ -114,14 +114,14 @@ class Visualizer {
    * @param {String} name Identifier of the node
    */
   removeNode(name) {
-    if (this.nodes.length > 1) sounder.play('removeUser');
-    
+
     const nodeDuplID = this.nodes.findIndex(node => node.name === name);
 
     if (nodeDuplID > -1) {
       this.nodes.splice(nodeDuplID, 1);
       this.updateAllPos();
     }
+    if (this.nodes.length > 0) sounder.removeUser.play();
   }
 
 
