@@ -91,8 +91,7 @@ function Rooms({ isOnline }) {
   };
   
   useEffect(() => {
-    document.title = 'App | Blaze';
-    
+    document.title = 'App | Blazr ⚡';
     if (rooms.length === 0) {
       setModal(true);
     }

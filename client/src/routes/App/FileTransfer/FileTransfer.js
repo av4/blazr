@@ -227,7 +227,7 @@ class FileTransfer extends PureComponent {
   }
 
   componentDidMount() {
-    document.title = `${this.client.room} room | Blaze`;
+    document.title = `${this.client.room} room | Blazr ⚡`;
 
     this.visualizer = new Visualizer(this.canvas.current);
     this.fileShare = new SocketConnect(this.client.room, this.client.name);
@@ -474,7 +474,7 @@ class FileTransfer extends PureComponent {
               )
             }
 
-            <div class={`transfer-help ${peers.length > 1 && isP2P && 'p2p'}`}>
+            <div class={`transfer-help ${peers.length > 1 && isP2P && 'p2p'}`} style="position:absolute;bottom:20px">
               {
                 peers.length <= 1 ? 'Share room link to devices you want to share files with'
                   : isP2P ? (

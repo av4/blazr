@@ -1,6 +1,6 @@
 {
   "name": "blazr",
-  "version": "1.1.1",
+  "version": "1.2.0-bell-1",
   "description": "Quickly share files with multiple users",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "copy-to-clipboard": "^3.3.1",
     "downloadjs": "^1.4.7",
+    "howler": "^2.2.3",
     "nanoid": "^3.1.16",
     "preact": "^10.3.2",
     "preact-feather": "^4.1.0",
