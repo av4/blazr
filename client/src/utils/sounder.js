@@ -7,7 +7,9 @@ const nameMap = {
 
 const play = nam => {
   nam = nameMap[nam]
+  console.log('sounder nam:', nam)
   if (nam) {
+    console.log('sounder nam:', nam)
     new Howl({ src: [`/assets/audio/${nam}`], autoplay: true, volume: 0.5 })
   }
 }
