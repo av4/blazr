@@ -1,3 +1,5 @@
+import { Howl } from 'howler'
+
 class Visualizer {
 
   constructor(canvas) {
@@ -7,6 +9,7 @@ class Visualizer {
     this.updateCanvasSize();
     window.addEventListener('resize', this.updateCanvasSize.bind(this));
 
+    this.priorNodeLen = 0;
     this.nodes = [];
     this.sentTo = [];
     this.receivedBy = [];
@@ -103,7 +106,10 @@ class Visualizer {
       this.nodes.push(nodeData);
 
     if (!pos) this.updateAllPos();
-
+    if (this.priorNodeLen < this.nodes.length && this.nodes.length > 1) {
+      Howl({ src: ['/assets/tone-2870.wav']})
+    }
+    this.priorNodeLen = this.nodes.length;
   }
 
   /**

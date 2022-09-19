@@ -474,7 +474,7 @@ class FileTransfer extends PureComponent {
               )
             }
 
-            <div class={`transfer-help ${peers.length > 1 && isP2P && 'p2p'}`} style="position:absolute;bottom:20px">
+            <div class={`transfer-help ${peers.length > 1 && isP2P && 'p2p'}`} style="position:absolute;bottom:20px;left:20px">
               {
                 peers.length <= 1 ? 'Share room link to devices you want to share files with'
                   : isP2P ? (
