@@ -12,7 +12,7 @@ const Footer = () => (
         <span style="font-size:smaller">
           A share now adaptation of <a class="sec-clr" href="//blaze.now.sh" target="_blank">Blaze</a> - <a class="sec-clr" href="//github.com/blenderskool/blaze/blob/master/LICENSE" target="_blank">MIT License</a>
           <br />
-          <sup>1-to-1 and Many-to-Many file transfers across different networks and devices with no signups, ads or Google. </sup>
+          <sup>1-to-1 &amp; Many-to-Many file transfers across different networks &amp; devices with no: signups, ads or Google. </sup>
         </span><br />
     </div>
     <script>
