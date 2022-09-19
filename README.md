@@ -1,6 +1,6 @@
 <div align="center">
   <p align="center">
-    <a href="//blazr.yie.me">
+    <a href="//master.blazr.yie.me">
       <img src="https://github.com/blenderskool/blaze/raw/next/client/src/assets/images/apple-touch-icon-152x152.png" width="80">
     </a>
   </p>
@@ -28,7 +28,7 @@ src="https://styles.redditmedia.com/t5_4bph8/styles/communityIcon_w8fy3ydhafs41.
 src="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/48/51/d9/4851d9a4-218e-c8c7-8d92-d1862234fac7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg"> No Ads
 
 ### Try it out!
-- Go to a deployed client of Blazr - https://blazr.yie.me
+- Go to a deployed client of Blazr - https://master.blazr.yie.me
 - Set a basic nickname(this is not stored on any server)
 - Create a new room. Room is where peers must join to share files among each other.
 - On another device, follow the above steps and join the same room. (Make sure to give a different nickname)
