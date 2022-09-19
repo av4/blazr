@@ -7,7 +7,6 @@ import Pill from '../../../../components/Pill/Pill';
 import { useOnHistoryPush } from '../../../../hooks';
 
 import './Header.scss';
-import pkg from '../../../../../package.json';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
