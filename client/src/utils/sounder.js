@@ -14,8 +14,6 @@ const play = nam => {
 }
 const sounder = {
   play,
-  addUser: () => { play('addUser') }, 
-  removeUser: () => { play('removeUser') }, 
 }
 
 export default sounder

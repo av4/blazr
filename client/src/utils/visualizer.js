@@ -106,8 +106,7 @@ class Visualizer {
       this.nodes.push(nodeData);
 
     if (!pos) this.updateAllPos();
-    if (this.nodes.length > 1 && this.priorNodeLen < this.nodes.length) sounder.addUser();
-    this.priorNodeLen = this.nodes.length;
+    if (this.nodes.length > 1) sounder.play('addUser');
   }
 
   /**
@@ -122,8 +121,7 @@ class Visualizer {
       
       this.updateAllPos();
     }
-    if (this.nodes.length > 1 && this.priorNodeLen > this.nodes.length) sounder.removeUser();
-    this.priorNodeLen = this.nodes.length;
+    if (this.nodes.length > 1) sounder.play('removeUser');
   }
 
 
