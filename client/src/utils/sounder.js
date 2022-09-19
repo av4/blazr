@@ -15,7 +15,7 @@ const play = nam => {
 }
 const sounder = {
   play,
-  userChange: (userAdded) => { play((aduserAddedded) ? 'addUser' : 'removeUser') }
+  userChange: (userAdded) => { play((userAdded) ? 'addUser' : 'removeUser') }
 }
 
 export default sounder
