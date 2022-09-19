@@ -1,7 +1,8 @@
 import { Howl } from 'howler'
 
 const nameMap = {
-  addUser: 'tone-2870.wav',
+  addUser: 'mixkit-correct-answer-tone-2870.wav',
+  removeUser: 'mixkit-arrow-whoosh-1491.wav',
 }
 
 const tone = {

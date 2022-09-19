@@ -106,7 +106,7 @@ class Visualizer {
       this.nodes.push(nodeData);
 
     if (!pos) this.updateAllPos();
-    if (this.priorNodeLen < this.nodes.length && this.nodes.length > 1) play('addUser');
+    if (this.nodes.length > 1) play((this.priorNodeLen < this.nodes.length) ? 'addUser' : 'removeUser');
     this.priorNodeLen = this.nodes.length;
   }
 
