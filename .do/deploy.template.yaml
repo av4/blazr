@@ -1,10 +1,10 @@
 spec:
-  name: blaze
+  name: blazr
   services:
   - name: web
     git:
       branch: master
-      repo_clone_url: https://github.com/blenderskool/blaze.git
+      repo_clone_url: https://github.com/av4/blazr.git
     http_port: 80
     dockerfile_path: ./Dockerfile
     envs:

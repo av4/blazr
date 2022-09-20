@@ -7,7 +7,7 @@ import './Footer.scss';
 const Footer = () => (
   <footer>
     <div style="font-weight:100">
-        <a class="sec-clr" href="//github.com/av4/blaze">{appName} v{pkg.version}</a> ©<span id="cpyear">2022</span> - <a class="sec-clr" href="//github.com/av4/blaze/blob/master/LICENSE" target="_blank">MIT License</a>
+        <a class="sec-clr" href="//blazr.yie.me">{appName} v{pkg.version}</a> ©<span id="cpyear">2022</span> - <a class="sec-clr" href="//github.com/av4/blazr/blob/master/LICENSE" target="_blank">MIT License</a>
         <br />
         <span style="font-size:smaller">
           A share now adaptation of <a class="sec-clr" href="//blaze.now.sh" target="_blank">Blaze</a> - <a class="sec-clr" href="//github.com/blenderskool/blaze/blob/master/LICENSE" target="_blank">MIT License</a>
