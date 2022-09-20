@@ -489,7 +489,8 @@ class FileTransfer extends PureComponent {
             {
               peers.length <= 1 && (
                 <div class="share-room-link">
-                  <input value={window.location.href} disabled />
+                  <input value={window.location.href} disabled style="width:100%;padding-left:9px;padding-right:9px;font-size:smaller "/>
+                  <br />
                   <button class="outlined" onClick={navigator.share ? this.handleShare :this.copyLink}>
                     {navigator.share ? 'Share room link' : 'Copy room link'}
                   </button>
