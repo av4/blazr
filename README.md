@@ -23,7 +23,7 @@ Primarily uses [WebTorrent](https://webtorrent.io) and WebSockets protocol (as a
 - ⚡ Easy to use, and no app installation required.
 - 📱 PWA for device-level integrations.
 - <img height="13" style="position:relative;top:1px"
-src="https://styles.redditmedia.com/t5_4bph8/styles/communityIcon_w8fy3ydhafs41.png?width=256&s=344d90a8381b0d5dd7d7db287e3a73b6e40a7537"> Without Google
+src="https://styles.redditmedia.com/t5_4bph8/styles/communityIcon_w8fy3ydhafs41.png?width=256&s=344d90a8381b0d5dd7d7db287e3a73b6e40a7537"> Without Google fonts &amp; analytics
 - <img height="13"
 src="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/48/51/d9/4851d9a4-218e-c8c7-8d92-d1862234fac7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg"> No Ads
 
